@@ -1,11 +1,11 @@
 DB_CONFIG = {
-    'host': 'ecomdb.cpcuwwmkowm3.ap-south-2.rds.amazonaws.com',
-    'user': 'ecomadmin',
+    'host': '<rds-endpoint>',
+    'user': 'admin',
     'password': 'Gopi766080',
-    'database': 'ecomdb',
+    'database': 'testdb',
 }
 
 S3_CONFIG = {
-    'bucket_name': 'gopichand2',
+    'bucket_name': 'test-bucket',
     'region': 'ap-south-2',
 }
